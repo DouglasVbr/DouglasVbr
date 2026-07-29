@@ -14,6 +14,7 @@
 <rect x="36" y="92" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
 <rect x="36" y="92" width="4" height="112" rx="2" fill="#4F5D95"/>
 <text x="56" y="126" font-size="15" font-weight="600" fill="#F8FAFC">bingozen</text>
+<text x="56" y="150" font-size="12" fill="#94A3B8">Bingo online em Laravel com sorteio e chat</text>
 <circle cx="61" cy="180" r="5" fill="#4F5D95"/>
 <text x="72" y="184" font-size="12" fill="#94A3B8">PHP</text>
 <text x="372" y="184" font-size="11" text-anchor="end" fill="#475569">2025</text>
@@ -22,6 +23,7 @@
 <rect x="412" y="92" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
 <rect x="412" y="92" width="4" height="112" rx="2" fill="#3178C6"/>
 <text x="432" y="126" font-size="15" font-weight="600" fill="#F8FAFC">mercado-livre</text>
+<text x="432" y="150" font-size="12" fill="#94A3B8">Clone do Mercado Livre em Next.js</text>
 <circle cx="437" cy="180" r="5" fill="#3178C6"/>
 <text x="448" y="184" font-size="12" fill="#94A3B8">TypeScript</text>
 <text x="748" y="184" font-size="11" text-anchor="end" fill="#475569">2025</text>
@@ -30,6 +32,7 @@
 <rect x="788" y="92" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
 <rect x="788" y="92" width="4" height="112" rx="2" fill="#4F5D95"/>
 <text x="808" y="126" font-size="15" font-weight="600" fill="#F8FAFC">portal-de-noticias</text>
+<text x="808" y="150" font-size="12" fill="#94A3B8">Portal de notícias com painel e login</text>
 <circle cx="813" cy="180" r="5" fill="#4F5D95"/>
 <text x="824" y="184" font-size="12" fill="#94A3B8">PHP</text>
 <text x="1124" y="184" font-size="11" text-anchor="end" fill="#475569">2025</text>
@@ -38,7 +41,7 @@
 <rect x="36" y="224" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
 <rect x="36" y="224" width="4" height="112" rx="2" fill="#3178C6"/>
 <text x="56" y="258" font-size="15" font-weight="600" fill="#F8FAFC">ProjetoMobileFinal</text>
-<text x="56" y="282" font-size="12" fill="#94A3B8">Barbearia</text>
+<text x="56" y="282" font-size="12" fill="#94A3B8">App de barbearia em React Native</text>
 <circle cx="61" cy="312" r="5" fill="#3178C6"/>
 <text x="72" y="316" font-size="12" fill="#94A3B8">TypeScript</text>
 <text x="372" y="316" font-size="11" text-anchor="end" fill="#475569">2025</text>
@@ -47,6 +50,7 @@
 <rect x="412" y="224" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
 <rect x="412" y="224" width="4" height="112" rx="2" fill="#4F5D95"/>
 <text x="432" y="258" font-size="15" font-weight="600" fill="#F8FAFC">GeradorDeRifa</text>
+<text x="432" y="282" font-size="12" fill="#94A3B8">Gerador e sorteio de rifas em PHP</text>
 <circle cx="437" cy="312" r="5" fill="#4F5D95"/>
 <text x="448" y="316" font-size="12" fill="#94A3B8">PHP</text>
 <text x="748" y="316" font-size="11" text-anchor="end" fill="#475569">2025</text>
@@ -55,6 +59,7 @@
 <rect x="788" y="224" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
 <rect x="788" y="224" width="4" height="112" rx="2" fill="#4F5D95"/>
 <text x="808" y="258" font-size="15" font-weight="600" fill="#F8FAFC">DesignPatternsEmPhp</text>
+<text x="808" y="282" font-size="12" fill="#94A3B8">Design patterns: impostos e descontos</text>
 <circle cx="813" cy="312" r="5" fill="#4F5D95"/>
 <text x="824" y="316" font-size="12" fill="#94A3B8">PHP</text>
 <text x="1124" y="316" font-size="11" text-anchor="end" fill="#475569">2025</text>

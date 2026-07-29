@@ -1,6 +1,6 @@
 <?php
 /**
- * Gera dark.svg e light.svg â€” banner "terminal" animado para o perfil do GitHub.
+ * Gera dark.svg e light.svg — banner "terminal" animado para o perfil do GitHub.
  *
  * Painel esquerdo (VISUAL.MAP): retrato do avatar em bitmap 1-bit com dithering
  * Floyd-Steinberg. Tentei ASCII antes: em ~4-6px por caractere os glifos da rampa
@@ -103,7 +103,7 @@ function ditherPortrait(string $file): array
 
 /**
  * Converte o bitmap em subpaths horizontais. Cada run vira "M x y.5 H x2",
- * desenhado com stroke-width 1 â€” muito mais compacto que um <rect> por run.
+ * desenhado com stroke-width 1 — muito mais compacto que um <rect> por run.
  *
  * @param array<int,array<int,bool>> $on
  * @return array<int,string> um path por faixa de animacao
@@ -319,4 +319,3 @@ file_put_contents($OUT . '/light.svg', buildSvg($paths, $info, $light));
 
 echo 'dark.svg  : ' . number_format(filesize($OUT . '/dark.svg')) . " bytes\n";
 echo 'light.svg : ' . number_format(filesize($OUT . '/light.svg')) . " bytes\n";
-

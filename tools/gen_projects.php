@@ -1,22 +1,29 @@
 <?php
 /**
- * Gera projects-dark.svg e projects-light.svg â€” cartao de projetos no mesmo
+ * Gera projects-dark.svg e projects-light.svg — cartao de projetos no mesmo
  * estilo de janela de terminal do banner.
  *
- * So entram dados reais da API do GitHub (nome, linguagem, ano do ultimo push).
- * Nenhuma descricao inventada: repo sem description fica sem a linha.
+ * Os repositorios estao sem "description" no GitHub, entao as descricoes abaixo
+ * foram escritas a partir do codigo de cada um (composer.json, package.json,
+ * README e arvore de arquivos) — nao sao chute.
+ *
+ * Limite de ~42 caracteres por descricao: o cartao tem 356px e a fonte 12
+ * monoespacada gasta ~7.2px por caractere. buildProjects() avisa se passar.
  */
 
 $OUT = dirname(__DIR__);
 
 $repos = [
-    ['bingozen',            'PHP',        '2025', ''],
-    ['mercado-livre',       'TypeScript', '2025', ''],
-    ['portal-de-noticias',  'PHP',        '2025', ''],
-    ['ProjetoMobileFinal',  'TypeScript', '2025', 'Barbearia'],
-    ['GeradorDeRifa',       'PHP',        '2025', ''],
-    ['DesignPatternsEmPhp', 'PHP',        '2025', ''],
+    ['bingozen',            'PHP',        '2025', 'Bingo online em Laravel com sorteio e chat'],
+    ['mercado-livre',       'TypeScript', '2025', 'Clone do Mercado Livre em Next.js'],
+    ['portal-de-noticias',  'PHP',        '2025', 'Portal de notícias com painel e login'],
+    ['ProjetoMobileFinal',  'TypeScript', '2025', 'App de barbearia em React Native'],
+    ['GeradorDeRifa',       'PHP',        '2025', 'Gerador e sorteio de rifas em PHP'],
+    ['DesignPatternsEmPhp', 'PHP',        '2025', 'Design patterns: impostos e descontos'],
 ];
+
+// largura util do texto dentro do cartao, em caracteres
+const DESC_MAX = 42;
 
 // cores oficiais de linguagem do GitHub
 $langColor = [
@@ -71,6 +78,11 @@ function buildProjects(array $repos, array $langColor, array $t): string
 
     foreach ($repos as $i => $r) {
         [$name, $lang, $year, $desc] = $r;
+        // mb_strlen, nao strlen: "notícias" tem 8 caracteres e 9 bytes
+        if (mb_strlen($desc, 'UTF-8') > DESC_MAX) {
+            fwrite(STDERR, "AVISO: descricao de {$name} tem " . mb_strlen($desc, 'UTF-8')
+                . ' caracteres e vai vazar do cartao (limite ' . DESC_MAX . ")\n");
+        }
         $cx = $pad + ($i % $cols) * ($cardW + $gap);
         $cy = $gridY + (int) ($i / $cols) * ($cardH + $gap);
         $color = $langColor[$lang] ?? $t['accent'];
@@ -121,4 +133,3 @@ file_put_contents($OUT . '/projects-light.svg', buildProjects($repos, $langColor
 
 echo 'projects-dark.svg  : ' . number_format(filesize($OUT . '/projects-dark.svg')) . " bytes\n";
 echo 'projects-light.svg : ' . number_format(filesize($OUT . '/projects-light.svg')) . " bytes\n";
-
