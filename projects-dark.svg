@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="370" viewBox="0 0 1180 370" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Projetos de Douglas Vieira">
+<defs><linearGradient id="pPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A101F"/><stop offset="1" stop-color="#0C1426"/></linearGradient><clipPath id="pClip"><rect x="2" y="2" width="1176" height="366" rx="18"/></clipPath></defs>
+<rect x="2" y="2" width="1176" height="366" rx="18" fill="#070B16"/>
+<g clip-path="url(#pClip)">
+<rect x="2" y="2" width="1176" height="366" fill="url(#pPanel)"/>
+<rect x="2" y="2" width="1176" height="46" fill="#0B1222"/>
+<line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(255,255,255,0.10)"/>
+<circle cx="30" cy="25" r="5.5" fill="#ff5f56"/>
+<circle cx="50" cy="25" r="5.5" fill="#ffbd2e"/>
+<circle cx="70" cy="25" r="5.5" fill="#27c93f"/>
+<text x="590" y="29" text-anchor="middle" font-size="12" fill="#94A3B8">DouglasVbr - % ls ~/projects</text>
+<text x="36" y="74" font-size="10" letter-spacing="3" fill="#475569">PROJECTS</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.45s" begin="0s" fill="freeze"/>
+<rect x="36" y="92" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
+<rect x="36" y="92" width="4" height="112" rx="2" fill="#4F5D95"/>
+<text x="56" y="126" font-size="15" font-weight="600" fill="#F8FAFC">bingozen</text>
+<circle cx="61" cy="180" r="5" fill="#4F5D95"/>
+<text x="72" y="184" font-size="12" fill="#94A3B8">PHP</text>
+<text x="372" y="184" font-size="11" text-anchor="end" fill="#475569">2025</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.09s" fill="freeze"/>
+<rect x="412" y="92" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
+<rect x="412" y="92" width="4" height="112" rx="2" fill="#3178C6"/>
+<text x="432" y="126" font-size="15" font-weight="600" fill="#F8FAFC">mercado-livre</text>
+<circle cx="437" cy="180" r="5" fill="#3178C6"/>
+<text x="448" y="184" font-size="12" fill="#94A3B8">TypeScript</text>
+<text x="748" y="184" font-size="11" text-anchor="end" fill="#475569">2025</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.18s" fill="freeze"/>
+<rect x="788" y="92" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
+<rect x="788" y="92" width="4" height="112" rx="2" fill="#4F5D95"/>
+<text x="808" y="126" font-size="15" font-weight="600" fill="#F8FAFC">portal-de-noticias</text>
+<circle cx="813" cy="180" r="5" fill="#4F5D95"/>
+<text x="824" y="184" font-size="12" fill="#94A3B8">PHP</text>
+<text x="1124" y="184" font-size="11" text-anchor="end" fill="#475569">2025</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.27s" fill="freeze"/>
+<rect x="36" y="224" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
+<rect x="36" y="224" width="4" height="112" rx="2" fill="#3178C6"/>
+<text x="56" y="258" font-size="15" font-weight="600" fill="#F8FAFC">ProjetoMobileFinal</text>
+<text x="56" y="282" font-size="12" fill="#94A3B8">Barbearia</text>
+<circle cx="61" cy="312" r="5" fill="#3178C6"/>
+<text x="72" y="316" font-size="12" fill="#94A3B8">TypeScript</text>
+<text x="372" y="316" font-size="11" text-anchor="end" fill="#475569">2025</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.36s" fill="freeze"/>
+<rect x="412" y="224" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
+<rect x="412" y="224" width="4" height="112" rx="2" fill="#4F5D95"/>
+<text x="432" y="258" font-size="15" font-weight="600" fill="#F8FAFC">GeradorDeRifa</text>
+<circle cx="437" cy="312" r="5" fill="#4F5D95"/>
+<text x="448" y="316" font-size="12" fill="#94A3B8">PHP</text>
+<text x="748" y="316" font-size="11" text-anchor="end" fill="#475569">2025</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.45s" fill="freeze"/>
+<rect x="788" y="224" width="356" height="112" rx="10" fill="#0C1426" stroke="rgba(34,211,238,0.25)"/>
+<rect x="788" y="224" width="4" height="112" rx="2" fill="#4F5D95"/>
+<text x="808" y="258" font-size="15" font-weight="600" fill="#F8FAFC">DesignPatternsEmPhp</text>
+<circle cx="813" cy="312" r="5" fill="#4F5D95"/>
+<text x="824" y="316" font-size="12" fill="#94A3B8">PHP</text>
+<text x="1124" y="316" font-size="11" text-anchor="end" fill="#475569">2025</text>
+</g>
+</g></svg>
